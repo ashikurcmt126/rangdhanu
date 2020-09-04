@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;469;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
+*{margin: 0; padding: 0;}
+header#topBar {
+    overflow: hidden;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+.primaryMenu {
+    background: #0A146E;
+    height: 68px;
+}
+.container {
+    margin: auto;
+    width: 1000px;
+}
+.primaryWrapper{
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    width: 40%;
+    margin-top: 12px;
+}
+.logo h1{
+    font-family: 'Lobster', cursive;
+    color: #FFFFFF;
+}
+
+.menu{
+    float: left;
+    margin-top: 10px;
+}
+.menuWrapper {
+    float: left;
+    width: 60%;
+    margin-top: 19px;
+}
+
+ul.mainMenuItem li {
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.1;
+    padding-left: 24px;
+    text-transform: uppercase;
+}
+ul.mainMenuItem li a{
+    text-decoration: none;
+    font-size: 25px;
+    font: inherit;
+    color:#FFFFFF;
+}
+
+button#loginBtn {
+    margin-left: 10px;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+    font-size: 13px;
+}
+
+/*=====================================Search Section=========================*/
+#searchBar {
+    margin-top: 68px;
+    height: 200px;
+    background-color: #18237F;
+    background-image: linear-gradient(#1D2983,#50639D );
+}
+.container1{
+    margin: auto;
+    width: 1000px;
+}
+.searchHeader h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 28px;
+    padding: 28px 0px;
+}
+.insideContainer {
+    background-color: #092679;
+    background-image: linear-gradient(#092679,#274688);
+    border-radius: 10px;
+}
+.searchHeader h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+}
+.searchHeader h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 32px;
+}
